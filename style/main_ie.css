@@ -1,0 +1,40 @@
+
+.subnav {
+	width: 100% !important; 
+    font-size: 15px;
+    min-width: 960px !important;
+    -webkit-transform: translateZ(0);
+    position: fixed; 
+	top: 0px; 
+	background: url(../img/nav_repeat.png);
+    background-repeat: repeat-x !important;
+    z-index: 9999999999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    }
+
+.nav-pills > li > a {
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 3px 35px;
+    color: #666666;
+    line-height: 20px;
+    text-align: center;
+    border-right: 1px solid #666;
+    }
+
+.toggler_section {display: none;}
+
+.ie_toggler {display: block; margin-bottom: 30px;}
+
+li.nav_start {margin-left: 200px;}
+
+.header {margin-top: 87px;}
+
+.clearfix {
+    zoom: 1;     /* triggers hasLayout */
+    }  /* Only IE can see inside the conditional comment
+    and read this CSS rule. Don't ever use a normal HTML
+    comment inside the CC or it will close prematurely. */
+
